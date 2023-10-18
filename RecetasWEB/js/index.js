@@ -92,6 +92,18 @@ document.addEventListener("DOMContentLoaded", function() {
       // Guardar la lista actualizada en el Local Storage
       localStorage.setItem("surveyData", JSON.stringify(storedData));
     }
+
+    function buscar() {
+      // Obtén el valor ingresado en el cuadro de texto
+      var palabraClave = document.getElementById("inputBuscar").value;
+    
+      // Realiza la búsqueda o cualquier otra lógica que desees aquí
+      // Puedes mostrar los resultados en el div de resultados
+      var resultados = "Resultados para: " + palabraClave;
+      document.getElementById("resultadosBusqueda").textContent = resultados;
+    }
+
+    
   });
 
   
