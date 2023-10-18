@@ -531,7 +531,7 @@ nav ul {
 
   
 
-  barraBusqueda{
+  .barraBusqueda{
     text-align: center;
 }
 /* para definir el tamanio y estilo de la bara de busqueda */
@@ -553,7 +553,7 @@ nav ul {
 .botonBuscar {
     display: inline-block;
     padding: 12px 24px; /* Ajusta el tamaño del botón */
-    background-color: #abf5ad; /* Color de fondo */
+    background-color: #00ffb3; /* Color de fondo */
     color: #545353; /* Color del texto */
     border: none;
     border-radius: 6px; /* Bordes redondeados */
