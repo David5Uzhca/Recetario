@@ -142,15 +142,9 @@ body {
 }
 
 h2 {
-    color: #fff;
-    text-shadow: 0 0 10px #1100ff,
-                 0 0 20px #1100ff,
-                 0 0 30px #1100ff,
-                 0 0 40px #1100ff,
-                 0 0 70px #1100ff,
-                 0 0 80px #1100ff,
-                 0 0 100px #1100ff,
-                 0 0 150px #1100ff;
+    color: #000000;
+    font-size: 1.1em;
+    margin-left: 50px;
 }
 
 .header {
