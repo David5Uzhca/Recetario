@@ -92,7 +92,6 @@ document.addEventListener("DOMContentLoaded", function() {
       // Guardar la lista actualizada en el Local Storage
       localStorage.setItem("surveyData", JSON.stringify(storedData));
     }
-
   });
 
   
