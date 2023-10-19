@@ -40,6 +40,11 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   });
 
+
+
+
+
+
   document.addEventListener("DOMContentLoaded", function() {
     // Obtener el formulario y los campos de entrada
     const form = document.getElementById("survey-form");
@@ -87,6 +92,8 @@ document.addEventListener("DOMContentLoaded", function() {
       // Guardar la lista actualizada en el Local Storage
       localStorage.setItem("surveyData", JSON.stringify(storedData));
     }
+
+    
 
     function buscar() {
       // Obtén el valor ingresado en el cuadro de texto

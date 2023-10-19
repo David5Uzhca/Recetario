@@ -382,7 +382,6 @@ textarea.form-control {
 }
 
 .form-control {
-
     padding: 10px;
     font-size: 16px;
     border-radius: 5px;
@@ -518,16 +517,11 @@ nav ul {
     display: block;
     padding: 10px 20px;
   }
-  
-
-
-
-
-  
 
   .barraBusqueda{
     text-align: center;
 }
+
 /* para definir el tamanio y estilo de la bara de busqueda */
 .barraBuscar {
     display: Center;
@@ -539,9 +533,6 @@ nav ul {
     margin-right: 5px;
     width: 200px;
   }
-
-  /* Estilo para el botón */
-
 
   /* Estilo para un botón moderno */
 .botonBuscar {
@@ -565,11 +556,6 @@ nav ul {
   .botonBuscar:hover {
     background-color: #55c45b; /* Cambia el color de fondo al pasar el mouse */
   }
-  
-  /* Estilo para un botón en estado inactivo o deshabilitado */
-
-  
-  
 
   /* Estilos para el menú desplegable */
   nav ul li ul {
