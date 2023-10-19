@@ -273,7 +273,7 @@ h2 {
     padding-left: 50px; 
     padding-right: 50px; 
 }
-
+/*
 .subtitulos {
     margin-bottom: 40px;
     text-align: center;
@@ -301,7 +301,7 @@ h2 {
     color: #fff;
     padding: 0 150px;
 }
-
+*/
 .titulo_contactos {
     margin-bottom: 20px;
     font-size: 20px;
@@ -497,7 +497,8 @@ nav ul {
     font-size: 1em;
     list-style: none;
     padding: 0;
-    background-color: #333;
+    background-color: #3c6063;
+    border-radius: 5px;
   }
   
   nav ul li {
@@ -525,7 +526,7 @@ nav ul {
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: #333;
+    background-color: #3c6063;
   }
   
   nav ul li:hover ul {
@@ -554,6 +555,7 @@ nav ul {
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-right: 5px;
+    margin-bottom: 15px;
     width: 200px;
   }
 
