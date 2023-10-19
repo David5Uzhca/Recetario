@@ -125,23 +125,18 @@ body {
 }
 
 .RecIzq{
- /*   display: flex;
+   display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
-    justify-content: center;
     margin-bottom: 50px;
-*/
     text-align: justify;
-    margin-bottom: 5px;
-    padding: 50px;
 }
 
 .RecDer{
     text-align: justify;
     margin-bottom: 5px;
     padding: 50px;
-    
 }
 
 .introduccion {
