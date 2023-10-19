@@ -39,12 +39,6 @@ document.addEventListener("DOMContentLoaded", function() {
       localStorage.setItem("surveyData", JSON.stringify(storedData)); // Guardar la lista actualizada en el Local Storage
     }
   });
-
-
-
-
-
-
   document.addEventListener("DOMContentLoaded", function() {
     // Obtener el formulario y los campos de entrada
     const form = document.getElementById("survey-form");
@@ -61,21 +55,17 @@ document.addEventListener("DOMContentLoaded", function() {
       const nombre = nombreInput.value;
       const Ingredientes = IngredientesInput.value;
       const Pasos = PasosInput.value;
-      
-
       // Validar que los campos no estén vacíos
       if (nombre.trim() === "" || Ingredientes.trim() === "" || Pasos.trim() === "" ) {
         alert("Por favor, completa todos los campos.");
         return;
       }
-  
       // Guardar los datos en el Local Storage
       saveDataToLocalStorage(nombre, Ingredientes, Pasos);
   
       // Reiniciar los campos del formulario
       form.reset();
     });
-  
     // Función para guardar los datos en el Local Storage
     function saveDataToLocalStorage(nombre, Ingredientes, Pasos) {
       // Obtener los datos anteriores del Local Storage
@@ -92,9 +82,6 @@ document.addEventListener("DOMContentLoaded", function() {
       // Guardar la lista actualizada en el Local Storage
       localStorage.setItem("surveyData", JSON.stringify(storedData));
     }
-
-    
-
     function buscar() {
       // Obtén el valor ingresado en el cuadro de texto
       var palabraClave = document.getElementById("inputBuscar").value;
