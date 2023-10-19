@@ -104,8 +104,6 @@ document.addEventListener("DOMContentLoaded", function() {
       var resultados = "Resultados para: " + palabraClave;
       document.getElementById("resultadosBusqueda").textContent = resultados;
     }
-
-    
   });
 
   
