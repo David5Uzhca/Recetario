@@ -40,11 +40,6 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   });
 
-
-
-
-
-
   document.addEventListener("DOMContentLoaded", function() {
     // Obtener el formulario y los campos de entrada
     const form = document.getElementById("survey-form");
